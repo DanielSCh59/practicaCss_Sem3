@@ -1,0 +1,840 @@
+nav{
+   
+    display: flex;
+    position: relative;
+
+    justify-content: space-evenly;
+    width: 100%;
+    height: 90px;
+    font-size: 20px;
+    padding-inline: 120px;
+    
+
+}
+.navi1{
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: space-evenly;
+
+    opacity: 50%;
+    width: 30%;
+    height: 100%;
+}
+.navi2{
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: space-evenly;
+    opacity: 60%;
+    width: 70%;
+    height: 100%;
+    background-color: lightblue;
+}
+
+.textNav{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    opacity: 80%;
+    top: 20%;
+    
+    border-radius: 10%;
+    transform: translate(0%,50%);
+
+}
+.item1{
+    height: 50px;
+    position: relative;
+    color: gray;
+    opacity: 80%;
+    top: 20%;
+    
+    border-radius: 10%;
+    transform: translate(50%,50%);
+
+}
+.item2{
+    height: 50px;
+    position: relative;
+    color: gray;
+    opacity: 80%;
+    top: 20%;
+    border-radius: 10%;
+    transform: translate(50%,50%);
+
+}
+.item3{
+    height: 50px;
+    position: relative;
+    color: gray;
+    opacity: 80%;
+    top: 20%;
+    border-radius: 10%;
+    transform: translate(50%,50%);
+
+}
+.item4{
+    height: 50px;
+    position: relative;
+    color: gray;
+    opacity: 80%;
+    top: 20%;    
+    border-radius: 10%;
+    transform: translate(50%,50%);
+
+}
+.item5{
+    
+    position: relative;
+    color: white;
+    opacity: 80%;
+    background-color: blue;
+    border-color: blue;
+    border-radius: .5rem;
+    height: 50%;
+    
+    transform: translate(50%,50%);
+  
+}
+.cont1{
+    display: flex;
+    justify-content: space-evenly;
+    position:relative; 
+    width:109%;
+    height:900px;
+
+}
+.secti1{
+    position: relative;
+    
+    flex-wrap: nowrap;
+    width: 60%;
+}
+.secti2{
+    position: relative;
+    background-color: blue;
+    align-items: baseline;
+    width: 50%;
+    height: 100%;
+}
+.enf{
+    position: relative;
+    width: max-content;
+    height: max-content;
+}
+p.p1{
+    color: midnightblue;
+    font-size: 80px;
+    font-weight: bold;
+}
+p.p2{
+    color: grey;
+    font-weight: lighter;
+    font-size: 50px;
+}
+.minis{
+    
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    color: darkblue;
+    width: 100%;
+    height: 10%;
+    font-size:30px;
+
+}
+.icono1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: baseline;
+    
+}
+.icono2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.icono3{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.apartadoFrm{
+    position: absolute;
+    top: 800px;
+    left: 300px;
+    bottom: 50px;
+    border-style: outset;
+}
+.frm{
+    position: relative;
+    width: 900px;
+    height: 100px;
+    background-color: white;
+    border-radius: 2%;
+}
+.minisIcons{
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-size:20px;
+    color: gray;
+    opacity: 80%;;
+}
+.iconofrm1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+}
+.iconofrm2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+}
+.iconofrm3{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+}
+.form1{
+    display: flex;
+    position: relative;
+    justify-content: space-between  ;
+    align-items: center;
+    color: gray;
+    border-radius: 20%;
+}
+.ubicationSl{
+    font-size: 18px;
+    color:darkblue;
+    border-style: none;
+}
+.fechaapp{
+    font-size: 18px;
+    color:darkblue;
+    border-style: none;
+}
+.typevaccine{
+    font-size: 18px;
+    color: darkblue;
+    border-style: none;
+}
+.btnEnviar{
+    position: relative;
+    font-size: 18px;
+    color: white;
+    border-color: blue;
+    background-color: blue;
+    top:10px;
+}
+
+.cont2{
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+}
+.imgsLogos{
+display: inline;
+position: relative;
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+.apartado1{
+display: flex;
+position: relative;
+width: 100%;
+justify-content: space-evenly;
+align-items: center;
+}
+.ap1Text{
+    top: 25px;
+}
+.ap1PTitle{
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.ap1PText{
+    color: gray;
+    opacity: 40%;
+    font-size: 25px;
+}
+.apartado2{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    top: 50px;
+    gap: 70px;
+}
+.ap2Sub1{
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 280px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    border-style: groove;
+}
+.icn1{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.ap1SPTitle{
+    color: darkblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.ap1SPText{
+    color: gray;
+    opacity: 40%;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.ap2Sub2{
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 280px;
+    flex-direction: column;
+    justify-content: center;
+    
+    border-radius: 20px;
+    border-style: groove;
+}
+.icn2{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.ap2SPTitle{
+    color: darkblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.ap2SPText{
+    color: gray;
+    opacity: 40%;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.ap2Sub3{
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 280px;
+    flex-direction: column;
+    justify-content: center;
+    
+    border-radius: 20px;
+    border-style: groove;
+}
+.icn3{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.ap3SPTitle{
+    color: darkblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.ap3SPText{
+    color: gray;
+    opacity: 40%;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.ap2Sub4{
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 280px;
+    flex-direction: column;
+    justify-content: center;
+    
+    border-radius: 20px;
+    border-style: groove;
+}
+.icn4{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.ap4SPTitle{
+    color: darkblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.ap4SPText{
+    color: gray;
+    opacity: 40%;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.cont3{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 50px;
+    flex-direction: column;
+}
+.apt1{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.subaptTitle{
+    color: darkblue;
+    font-size: 40px;
+    font-style: arial;
+    font-weight: bold;
+}
+.subaptText{
+    color: gray;
+    opacity: 40%;
+    font-size: 25px;
+}
+.apt2{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.subapt2img{
+    display: flex;
+    background-color: blue;
+    width: 500px;
+    height: 450px;
+    
+}
+.sbapt2img{
+    position: relative;
+    width: max-content;
+    height: 500px;
+   transform: translate(20%,-10%);
+
+}
+.subapt2options{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    
+}
+.opt1{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    border-style: groove;
+    border-radius: 6%;
+    width: 100%;
+    top: 1px;
+}
+.titleOpt1{
+    color: darkblue;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.opt2{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    border-style: groove;
+    border-radius: 6%;
+    width: 100%;
+    top: 15px;
+}
+.titleOpt2{
+    color: #00008b;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.opt3{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    border-style: groove;
+    border-radius: 6%;
+    width: 100%;
+    top: 30px;
+}
+.titleOpt3{
+    color: darkblue;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.opt4{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    border-style: groove;
+    border-radius: 6%;
+    width: 100%;
+    top: 45px;
+}
+.titleOpt4{
+    color: darkblue;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.opt5{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    border-style: groove;
+    border-radius: 6%;
+    width: 100%;
+    top: 65px;
+}
+.titleOpt5{
+    color: darkblue;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cont4{
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+}
+.cont5{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: max-content;
+    justify-content: space-evenly;
+    top: 50px;
+}
+.aptd1{
+    display: flex;
+    position: relative;
+    width: 100%;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.apdtText{
+    top: 20px;
+}
+.apdt1Title{
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.apdt1Text{
+    color: gray;
+    opacity: 40%;
+    font-size: 25px;
+}
+.apdt1img{
+    position: relative;
+}
+.apdt2{
+    display: flex;
+    position: relative;
+    width: 100%;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.subap1{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.rectangulos{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.rct1{
+    display: flex;
+    position: relative;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.subrc1{
+    display: flex;
+    position: relative;
+    justify-content: stretch;
+    align-items: center;
+}
+.btnPhone{
+    position: relative;
+    width: 90px;
+    height: 40px;
+    background-color: gray;
+    margin: 20px;
+}
+.phoneIcon{
+    width: 50px;
+    height: 50px;
+}
+.sbrc1AllText{
+    top:    0px;
+}
+.sbrc1Title{
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.sbrc1Text{
+    color: gray;
+    opacity: 40%;
+    font-size: 15px;
+    top: 0;
+}
+
+.rct2{
+    display: flex;
+    position: relative;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.subrc2{
+    display: flex;
+    position: relative;
+    justify-content: stretch;
+    align-items: center;
+}
+.btnChat{
+    position: relative;
+    width: 90px;
+    height: 40px;
+    background-color: blue;
+    margin: 20px;
+}
+.chatIcon{
+    width: 50px;
+    height: 50px;
+}
+.sbrc2AllText{
+    top:0px;
+}
+.sbrc2Title{
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.sbrc2Text{
+    color: gray;
+    opacity: 40%;
+    font-size: 15px;
+}
+
+.rct3{
+    display: flex;
+    position: relative;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.subrc3{
+    display: flex;
+    position: relative;
+    justify-content: stretch;
+    align-items: center;
+}
+.btnCall{
+    position: relative;
+    width: 90px;
+    height: 40px;
+    background-color: gray;
+    margin: 20px;
+}
+.callIcon{
+    width: 50px;
+    height: 50px;
+}
+.sbrc3AllText{
+    top:0px;
+}
+.sbrc3Title{
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.sbrc3Text{
+    color: gray;
+    opacity: 40%;
+    font-size: 15px;
+}
+
+.rct4{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.subrc4{
+    display: flex;
+    position: relative;
+    justify-content: stretch;
+    align-items: center;
+}
+.btnMessage{
+    position: relative;
+    width: 90px;
+    height: 40px;
+    background-color: gray;
+    margin: 20px;
+}
+.messageIcon{
+    width: 50px;
+    height: 50px;
+}
+.sbrc4AllText{
+    top:0px;
+}
+.sbrc4Title{
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.sbrc4Text{
+    color: gray;
+    opacity: 40%;
+    font-size: 15px;
+}
+.subap2{
+    display: flex;
+    position: relative;
+    width: 50%;
+}
+.back{
+    background-color: blue;
+    width: 85%;
+    height: 90%;
+}
+.backImg{
+    position: relative;
+    transform: translate(40%,-10%);
+}
+.end{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background-color: grey;
+    top: 100px;
+}
+.elements{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.endP1{
+    position: relative;
+    width: 30%;
+}
+.endp1Title{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.endp1Text{
+    color: white;
+    opacity: 50%;
+    font-size: 10px;
+}
+.endP2{
+    display: flex;
+    position: relative;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    
+}
+p.e1{
+    font-size: 20px;
+    color: gray;
+
+}
+.titleEnd{
+    color: darkblue;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+p.e2{
+    font-size: 20px;
+    color: gray;
+}
+p.e3{
+    font-size: 20px;
+    color: gray;
+}
+
+
+
+
